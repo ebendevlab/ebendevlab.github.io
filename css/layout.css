@@ -15,8 +15,8 @@
 	10. Popups
 */
 
-/*** 
-**** 1. Basic 
+/***
+**** 1. Basic
 ***/
 body {
 	margin: 0;
@@ -65,7 +65,7 @@ body {
 
 @media only screen and (max-width: 680px) {
 	.container {
-	padding: 4%;
+		padding: 4%;
 	}
 
 }
@@ -80,7 +80,7 @@ main {
 
 @media only screen and (max-width: 1140px) {
 	main {
-	padding-left: 0;
+		padding-left: 0;
 	}
 
 }
@@ -105,7 +105,7 @@ nav,
 	margin: 0 0 20px 0;
 }
 
-/*** 
+/***
 **** 2. Materialize
 ***/
 /* Navbar */
@@ -120,7 +120,7 @@ nav,
 
 @media only screen and (max-width: 1140px) {
 	.top-menu {
-	display: block;
+		display: block;
 	}
 
 }
@@ -184,7 +184,7 @@ nav,
 
 @media only screen and (max-width: 680px) {
 	.side-nav {
-	width: 280px;
+		width: 280px;
 	}
 
 }
@@ -303,50 +303,50 @@ nav,
 
 @media only screen and (max-width: 1140px) {
 	.card.profile {
-	margin-top: 70px;
+		margin-top: 70px;
 	}
 
 	.card.profile .card-content .card-profile-desc {
-	margin-left: 90px;
+		margin-left: 90px;
 	}
 
 }
 
 @media only screen and (max-width: 992px) {
 	.card.profile .card-profile-image {
-	margin: -10px 0 0 0;
-	width: 70px;
+		margin: -10px 0 0 0;
+		width: 70px;
 	}
 
 }
 
 @media only screen and (max-width: 680px) {
 	.card.profile {
-	margin-top: 60px;
+		margin-top: 60px;
 	}
 
 	.card.profile .card-image {
-	height: 268px;
+		height: 268px;
 	}
 
 	.card.profile .card-content {
-	padding: 20px 15px;
+		padding: 20px 15px;
 	}
 
 	.card.profile .card-content .card-profile-desc .card-title {
-	margin-top: 0;
+		margin-top: 0;
 	}
 
 	.card.profile .card-content .card-profile-desc p {
-	font-size: 14px;
+		font-size: 14px;
 	}
 
 	.card.profile .card-content .card-title {
-	margin: 1.2rem 0 0.3rem 0;
+		margin: 1.2rem 0 0.3rem 0;
 	}
 
 	.card.profile .card-content p {
-	font-size: 11px;
+		font-size: 11px;
 	}
 
 }
@@ -417,7 +417,7 @@ nav,
 	margin: 0 0 1.5rem 0;
 }
 
-/*** 
+/***
 **** 3. Section
 ***/
 .section {
@@ -433,7 +433,7 @@ nav,
 	margin-bottom: 0;
 }
 
-/*** 
+/***
 **** 4. Started
 ***/
 .section.started .material-icons {
@@ -448,7 +448,7 @@ nav,
 	margin: 0 0 5px 0;
 }
 
-/*** 
+/***
 **** 5. Portfolio
 ***/
 .section.works .row .col {
@@ -459,7 +459,7 @@ nav,
 	cursor: pointer;
 }
 
-/*** 
+/***
 **** 6. Pricing
 ***/
 .section.pricing {
@@ -738,7 +738,7 @@ footer .copy {
 
 @media (max-width: 680px) {
 	footer {
-	padding: 0 0 30px 0;
+		padding: 0 0 30px 0;
 	}
 
 }
@@ -754,14 +754,14 @@ footer .copy {
 
 @media (max-width: 680px) {
 	.popup-box {
-	width: 440px;
+		width: 440px;
 	}
 
 }
 
 @media (max-width: 480px) {
 	.popup-box {
-	width: 300px;
+		width: 300px;
 	}
 
 }
@@ -830,3 +830,47 @@ footer .copy {
 	opacity: 0;
 }
 
+/* Customize the spinner color */
+.spinner-border {
+	color: #007bff;
+	/* Change to your desired color */
+}
+
+/* Customize the spinner size */
+.spinner-border.spinner-border-sm {
+	width: 1.5rem;
+	/* Adjust as needed */
+	height: 1.5rem;
+	/* Adjust as needed */
+	border-width: 0.2em;
+	/* Adjust as needed */
+}
+
+/* Add optional styles for larger spinner sizes */
+.spinner-border.spinner-border-lg {
+	width: 3rem;
+	height: 3rem;
+	border-width: 0.3em;
+}
+
+/* Style for success alert */
+.alert-success {
+	padding: 0.75rem 1.25rem;
+	margin-bottom: 1rem;
+	border: 1px solid transparent;
+	border-radius: 0.25rem;
+	color: #155724;
+	background-color: #d4edda;
+	border-color: #c3e6cb;
+}
+
+/* Style for error alert */
+.alert-error {
+	padding: 0.75rem 1.25rem;
+	margin-bottom: 1rem;
+	border: 1px solid transparent;
+	border-radius: 0.25rem;
+	color: #721c24;
+	background-color: #f8d7da;
+	border-color: #f5c6cb;
+}
